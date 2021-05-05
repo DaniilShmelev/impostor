@@ -1,0 +1,6 @@
+pool:
+  vmImage: windows-latest
+
+steps:
+- bash: cargo build --release
+- publish: ./target/release/git-impostor.exe
