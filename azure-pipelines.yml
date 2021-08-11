@@ -3,4 +3,4 @@ pool:
 
 steps:
 - bash: cargo build --release
-- publish: ./target/release/git-impostor.exe
+- publish: ./target
