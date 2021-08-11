@@ -1,5 +1,5 @@
 pool:
-  vmImage: windows-latest
+  vmImage: ubuntu-20.04
 
 steps:
 - bash: cargo build --release
