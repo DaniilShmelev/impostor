@@ -1,4 +1,5 @@
 use std::env;
+use std::process;
 
 fn main() {
     println!("<ARGS>");
@@ -11,4 +12,5 @@ fn main() {
         println!("{}={}", env_var.0, env_var.1);
     }
     println!("</ENV>");
+    process::exit(2);
 }
